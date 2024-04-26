@@ -3,8 +3,8 @@ package com.tc;
 public class Tradutor{
     public Tradutor(){
     }
-    
-    public String en(String valor){//encode
+
+    public String en(String valor){   //encode
         switch(valor){
             case "B":
                 return "111";
