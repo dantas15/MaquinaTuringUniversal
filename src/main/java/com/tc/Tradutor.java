@@ -1,12 +1,9 @@
 package com.tc;
 
 public class Tradutor{
-    //private arraylist<Estados> estados;
-    //private arraylist<Transicoes> transicoes;
-
     public Tradutor(){
-
     }
+    
     public String en(String valor){//encode
         switch(valor){
             case "B":
