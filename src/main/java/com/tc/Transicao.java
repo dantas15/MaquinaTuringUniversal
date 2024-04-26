@@ -29,4 +29,17 @@ public class Transicao {
     System.out.println("Caractere de Escrita: " + caractereEscrita);
     System.out.println("Direcao: " + direcao);
   }
+
+  public String getEstado(){
+    return estado;
+  }
+  public String getCaractereLeitura(){
+    return caractereLeitura;
+  }
+  public String getCaractereEscrita(){
+    return caractereEscrita;
+  }
+  public Direcao getDirecao(){
+    return direcao;
+  }
 }

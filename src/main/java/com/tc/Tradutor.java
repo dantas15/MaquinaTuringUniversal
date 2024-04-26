@@ -1,5 +1,7 @@
 package com.tc;
 
+import com.tc.Transicao.Direcao;
+
 public class Tradutor{
     public Tradutor(){
     }
@@ -24,5 +26,14 @@ public class Tradutor{
                 }
                 return x;
         }
+    }
+    public String parserCompleto(String estado, String leitura, String estadoT, String escrita, Direcao direcao){
+        String x = new String();
+        if (direcao == Direcao.L){
+            x = "L";
+        } else if (direcao == Direcao.R){
+            x = "R";
+        }
+        return en(estado.substring(1))+"0"+en(leitura)+"0"+en(estadoT.substring(1))+"0"+en(escrita)+"0"+en(x);
     }
 }
