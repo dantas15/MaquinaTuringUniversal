@@ -12,7 +12,7 @@ public class Main {
         t.printTransicao();
 
         Tradutor tc = new Tradutor();
-        System.out.println(tc.parserCompleto(t.getEstado(),t.getCaractereLeitura(),t.getEstado(),t.getCaractereEscrita(),t.getDirecao()));
+        System.out.println(tc.parserCompleto(t.getEstado(),t.getCaractereLeitura(),t.getEstadoTransicao(),t.getCaractereEscrita(),t.getDirecao()));
         
     }
 }

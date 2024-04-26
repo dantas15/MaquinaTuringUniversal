@@ -1,6 +1,7 @@
 {
   "estado": "q0",
   "caractereLeitura": "0",
+  "estadoTransicao": "q1",
   "caractereEscrita": "1",
   "direcao": "R"
 }
